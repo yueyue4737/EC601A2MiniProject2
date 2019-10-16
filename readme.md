@@ -1,7 +1,6 @@
 Sprint1: Choose the Topic
 https://docs.google.com/document/d/1QIzr8Fer6PjhLMF32F4PbR9AkxEeTJPhh8TCLHvjCHY/edit?usp=sharing
-
-Sprint1: Choosing a Topic
+I narrow down the topic step by step
 1. Machine Learning
 (1)State of the ART of machine learning models to detect a segment objects 
 In Andreetto et al (2011), the object is the set of segments of the images. It is important to introduce the human test in the unsupervised learning.
