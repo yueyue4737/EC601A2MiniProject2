@@ -30,6 +30,8 @@ Mishra, R., & Javed, A. (2018, April). ROS based service robot platform. In 2018
 
 Sprint2: Report:Snorkel
 https://docs.google.com/document/d/1H55y2Pm-oL0SU80BXy5i6ez7CFrqis3FCb2kSxdq000/edit?usp=sharing
+Example1: Visual Relation
+Example2: Spam
 
 Sprint3: Presentation
 https://docs.google.com/presentation/d/1_WiAcg0C31HAWotqDXWgovvx6-G_6Asu9tVqwfXHROk/edit#slide=id.p
