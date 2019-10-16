@@ -32,6 +32,7 @@ Sprint2: Report:Snorkel
 https://docs.google.com/document/d/1H55y2Pm-oL0SU80BXy5i6ez7CFrqis3FCb2kSxdq000/edit?usp=sharing
 Example1: Visual Relation
 Example2: Spam
+If time permits, we should compare the performance of snorkel in a same data set with R.
 
 Sprint3: Presentation
 https://docs.google.com/presentation/d/1_WiAcg0C31HAWotqDXWgovvx6-G_6Asu9tVqwfXHROk/edit#slide=id.p
