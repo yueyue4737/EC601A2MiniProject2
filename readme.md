@@ -28,7 +28,7 @@ What does ROS mean? We cannot have a self-driving car, regardless of the wheelch
 The Robotic Operating System (ROS) is an open source Linux based framework for operating robots.  Learning about OS is a must…
 Mishra, R., & Javed, A. (2018, April). ROS based service robot platform. In 2018 4th International Conference on Control, Automation and Robotics (ICCAR) (pp. 55-59). IEEE.
 
-Sprint2: Report
+Sprint2: Report:Snorkel
 https://docs.google.com/document/d/1H55y2Pm-oL0SU80BXy5i6ez7CFrqis3FCb2kSxdq000/edit?usp=sharing
 
 Sprint3: Presentation
