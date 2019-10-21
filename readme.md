@@ -34,5 +34,6 @@ Example1: Visual Relation
 Example2: Spam
 If time permits, we should compare the performance of snorkel in a same data set with R.
 
-Sprint3: Presentation
+Sprint3: Presentation&Group Discussion
+https://docs.google.com/document/d/1h84wQDCaSqsadSoULQbxm3ILL0-jdxT487OXaQl4UL4/edit?usp=sharing
 https://docs.google.com/presentation/d/1_WiAcg0C31HAWotqDXWgovvx6-G_6Asu9tVqwfXHROk/edit#slide=id.p
