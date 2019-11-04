@@ -31,10 +31,6 @@ We still need to do a lot of things in labeling, it might not be approperiate to
   
 ### Conclusions
 <p> We still have a long way to solve the unsupervised learning. <p>
-  
-<p>Example1: Visual Relation
-<p>Example2: Spam
-If time permits, we should compare the performance of snorkel in a same data set with R.
 
 Sprint3: Group Discussion
 ======================================
