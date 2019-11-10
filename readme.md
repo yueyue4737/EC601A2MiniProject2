@@ -38,8 +38,11 @@ Sprint3: Group Discussion
    
 LINKS:
 =============
-### Sprint1: Narrow down the topic
-<p>https://docs.google.com/document/d/1QIzr8Fer6PjhLMF32F4PbR9AkxEeTJPhh8TCLHvjCHY/edit?usp=sharing <p>
+### Sprint 0: Narrow down the topic
+<p> https://docs.google.com/document/d/1QIzr8Fer6PjhLMF32F4PbR9AkxEeTJPhh8TCLHvjCHY/edit?usp=sharing <p>
+  
+### Sprint1: 
+<p> https://docs.google.com/document/d/15HBpB-Nwn-12WnwmATmoBjtX71If8M7LiM8bUkx5x6Y/edit?usp=sharing <p>
   
 ### Sprint2: What is snorkel
 <p>https://docs.google.com/document/d/1H55y2Pm-oL0SU80BXy5i6ez7CFrqis3FCb2kSxdq000/edit?usp=sharing <p>
