@@ -1,17 +1,14 @@
 State of the art of unsupervised learning and where it is being currently used: Snorkel
 =======
-Sprint1: Choose the Topic
+Sprint1: Unsupervised Learning
 =======
-### Why this topic?
-<p> It will help me focus on the term project. <p>
-
 ### What is unsupervised learning?
 <p> Unsupervised learning is about data without labeling. The main shortcoming of our topic is that not all of us strictly say about unsupervised learning. <p>
   
 ### Where can I use snorkel in the course?
 <p> Starting from images, and them we will know whether the topic is good for the natural language or not. <p>
   
-Sprint2: Report:Snorkel
+Sprint2: Individual Report:Snorkel
 ======
 
 ### Introduction to the topic
@@ -32,7 +29,7 @@ We still need to do a lot of things in labeling, it might not be approperiate to
 ### Conclusions
 <p> We still have a long way to solve the unsupervised learning. <p>
 
-Sprint3: Group Discussion
+Sprint3: Group Report: Learning from each other
 ======================================
 <p> Some of us slect a broad topic, while others just change the topic. It is not good to do things in that way. <p>
    
