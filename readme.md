@@ -8,7 +8,7 @@ Sprint1: Unsupervised Learning
 ### Where can I use snorkel in the course?
 <p> Starting from images, and them we will know whether the topic is good for the natural language or not. <p>
   
-Sprint2: Individual Report:Snorkel
+Sprint2: Individual Report: Snorkel
 ======
 
 ### Introduction to the topic
