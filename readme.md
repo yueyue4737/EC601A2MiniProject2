@@ -2,7 +2,7 @@ State of the art of unsupervised learning, where it is being currently used and 
 ==
 Sprint1: Unsupervised Learning
 --
-#### What is unsupervised learning?
+### What is unsupervised learning?
 <p> Unsupervised learning cannot provide correct responses, identifying similarities by using algorithms can categorize the inputs together. <p>
   
 ### Where can I use unsupervised learning?
