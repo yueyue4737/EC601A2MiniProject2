@@ -1,11 +1,11 @@
-State of the art of unsupervised learning, where it is being currently used and Snorkel
+State of the art of unsupervised learning, where it is being currently used and Snorkel :star:Yue
 =======
 Sprint1: Unsupervised Learning
 =======
 ### What is unsupervised learning?
-<p> Unsupervised learning is about data without labeling. The main shortcoming of our topic is that not all of us strictly say about unsupervised learning. <p>
+<p> Unsupervised learning cannot provide correct responses, identifying similarities by using algorithms can categorize the inputs together. <p>
   
-### Where can I use snorkel in the course?
+### Where can I use unsupervised learning?
 <p> Starting from images, and them we will know whether the topic is good for the natural language or not. <p>
   
 Sprint2: Individual Report: Snorkel
