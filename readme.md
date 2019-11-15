@@ -1,7 +1,7 @@
 State of the art of unsupervised learning, where it is being currently used and Snorkel :star:Yue
-=======
+==
 Sprint1: Unsupervised Learning
-=======
+--
 ### What is unsupervised learning?
 <p> Unsupervised learning cannot provide correct responses, identifying similarities by using algorithms can categorize the inputs together. <p>
   
@@ -9,7 +9,7 @@ Sprint1: Unsupervised Learning
 <p> Starting from images, and them we will know whether the topic is good for the natural language or not. <p>
   
 Sprint2: Individual Report: Snorkel
-======
+--
 
 ### Introduction to the topic
 ### Summary of references
@@ -30,11 +30,11 @@ We still need to do a lot of things in labeling, it might not be approperiate to
 <p> We still have a long way to solve the unsupervised learning. <p>
 
 Sprint3: Group Report: Learning from each other
-======================================
+--
 <p> Some of us slect a broad topic, while others just change the topic. It is not good to do things in that way. <p>
    
 LINKS:
-=============
+--
 ### Sprint 0: Narrow down the topic
 <p> https://docs.google.com/document/d/1QIzr8Fer6PjhLMF32F4PbR9AkxEeTJPhh8TCLHvjCHY/edit?usp=sharing <p>
   
