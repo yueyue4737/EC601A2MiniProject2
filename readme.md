@@ -1,4 +1,4 @@
-State of the art of unsupervised learning and where it is being currently used: Snorkel
+State of the art of unsupervised learning, where it is being currently used and Snorkel
 =======
 Sprint1: Unsupervised Learning
 =======
