@@ -29,7 +29,7 @@ We still need to do a lot of things in labeling, it might not be approperiate to
 ### Conclusions
 <p> We still have a long way to solve the unsupervised learning. <p>
 
-Sprint3: Group Report: Learning from each other
+Sprint3: Group Report, Learning from each other
 --
 <p> The reports from our group can be divided into two groups: general questions and applications. In the general question group, it is easy for the author to copy and paste too much or use a wrong writing style. In the application group, author might stop in a specific model or project, ignoring the topic of the group. If you can distinguish the related concepts, just do it; if you can draw a figure by yourself, just do it. <p>
    
