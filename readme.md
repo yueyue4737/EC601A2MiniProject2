@@ -3,10 +3,10 @@ State of the art of unsupervised learning, where it is being currently used and 
 Sprint1: Unsupervised Learning
 --
 ### What is unsupervised learning?
-<p> Unsupervised learning cannot provide correct responses, identifying similarities by using algorithms can categorize the inputs together. <p>
+<p> Unsupervised learning can be considered as a way to reduce the dimensions. Most of the unsupervised learning are a form of cluster analysis: some objects in the clusters are very similar while others are distinct. <p>
   
-### Where can I use unsupervised learning?
-<p> Starting from images, and them we will know whether the topic is good for the natural language or not. <p>
+### Where is it currently used?
+<p> In the real world, we can use k-means clustering to site cell phone towers; we can also use Fuzzy c-Means Clustering to analyze Gene Expression Data. Using self-organizing map, neural network based clustering can transform a dataset into a topology-preserving 2D map. <p>
   
 Sprint2: Individual Report: Snorkel
 --
