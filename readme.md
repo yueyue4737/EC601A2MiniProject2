@@ -12,16 +12,18 @@ Sprint2: Individual Report: Snorkel
 --
 
 ### Introduction to the topic
+<p> Weak supervision can successfully avoid it by using subject matter experts (SMEs). We can achieve weak supervision in three ways: (1) providing higher-level, less precise supervision; (2) giving cheaper, lower-quality supervision; (3) taking existing resources. <p>
+
 ### Summary of references
 <p> New Snorkel is about labeling the training data, and expand it into transformation and slicing. <p>
 
 ### Analysis of results including pros and cons. 
 
-* Advantage
-Snorkel can apply many different kinds of models, inclusting MLP and LGTM. Comparing with R, we can find a better accuracy rate quickly. In R, we need to build a model each time.
+#### Advantage
+<p> Snorkel can apply many different kinds of models. Better than R, we can find a better accuracy rate quickly. In R, we need to build a model each time. <p>
 
-* Disadvantage
-We still need to do a lot of things in labeling, it might not be approperiate to use in the text, especially in a small-scale dataset.
+#### Disadvantage
+<p> We still need to do a lot of things in labeling, before going into the next function. It might not be approperiate to use in the text, especially in a small-scale dataset. <p>
 
 ### Recommendations for a person who want to develop or use such systems
 <p> Snorkel is helpful to deal with images. <p>
