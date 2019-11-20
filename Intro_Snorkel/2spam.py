@@ -14,8 +14,8 @@
 
 import os
 
-if os.path.basename(os.getcwd()) == "snorkel-tutorials":
-    os.chdir("spam")
+if os.path.basename(os.getcwd()) == "":
+    os.chdir("")
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
@@ -394,8 +394,8 @@ import random
 
 import numpy as np
 
-if os.path.basename(os.getcwd()) == "snorkel-tutorials":
-    os.chdir("spam")
+if os.path.basename(os.getcwd()) == "":
+    os.chdir("")
 
 # Turn off TensorFlow logging messages
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
@@ -649,8 +649,8 @@ os.environ["PYTHONHASHSEED"] = "0"
 set_seed(111)
 
 # Make sure we're running from the spam/ directory
-if os.path.basename(os.getcwd()) == "snorkel-tutorials":
-    os.chdir("spam")
+if os.path.basename(os.getcwd()) == "":
+    os.chdir("")
 
 # To visualize logs
 logger = logging.getLogger()
