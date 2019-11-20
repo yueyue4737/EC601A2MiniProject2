@@ -1,8 +1,8 @@
 import os
 
 # Make sure we're running from the spam/ directory
-if os.path.basename(os.getcwd()) == "snorkel-tutorials":
-    os.chdir("getting_started")
+if os.path.basename(os.getcwd()) == "":
+    os.chdir("")
 
 from utils import load_unlabeled_spam_dataset
 
