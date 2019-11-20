@@ -1,5 +1,9 @@
 State of the art of unsupervised learning, where it is being currently used and Snorkel :star:Yue
 ==
+User Instructions
+--
+Fill in your `directory/path` at the beginning of the files.
+
 Sprint1: Unsupervised Learning
 --
 ### What is unsupervised learning?
