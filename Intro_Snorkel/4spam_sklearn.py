@@ -13,15 +13,15 @@ from sklearn import naive_bayes as bayes
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB, GaussianNB, BernoulliNB
 from sklearn.svm import SVC, NuSVC, LinearSVC
-ham_dataPath = r"E:/ml_program/[实验设计]基于朴素贝叶斯的垃圾邮件过滤/中文数据集/ham_5000.utf8"
-spma_dataPath = r"E:/ml_program/[实验设计]基于朴素贝叶斯的垃圾邮件过滤/中文数据集/spam_5000.utf8"
+ham_dataPath = r""
+spma_dataPath = r""
 with open(ham_dataPath,encoding='utf-8') as f:
     ham_txt_list = f.readlines()
 with open(spma_dataPath,encoding="utf-8") as f:
     spam_txt_list = f.readlines()
-# 加载停用词
+# add stop words
 stopwords = codecs.open(r'E:/ml_program/stopwords.txt','r','UTF8').read().split('\n')
-# 结巴分词，过滤掉停用词
+# filter the stopwords
 ham_processed_texts = []
 for txt in ham_txt_list:
     words = []
@@ -31,7 +31,7 @@ for txt in ham_txt_list:
             words.append(seg)
     sentence = " ".join(words)
     ham_processed_texts.append(sentence)
-# 垃圾邮件
+# spam
 spam_processed_texts = []
 for txt in spam_txt_list:
     words = []
@@ -41,7 +41,7 @@ for txt in spam_txt_list:
             words.append(seg)
     sentence = " ".join(words)
     spam_processed_texts.append(sentence)
- # 将切词后的数据使用词云展示，观察其中的规律
+ # word cloud
 def showWordCloud(text):
     wc = WordCloud(
         background_color = "white",
@@ -60,9 +60,9 @@ showWordCloud(" ".join(spam_processed_texts))
 showWordCloud(" ".join(ham_processed_texts))
 def transformTextToSparseMatrix(texts):
     vectorizer = CountVectorizer(binary=False)
-    vectorizer.fit(texts) # 生成词汇表
-    vocabulary = vectorizer.vocabulary_ # 输出词汇表
-    vector = vectorizer.transform(texts) # 生成向量
+    vectorizer.fit(texts) # word list
+    vocabulary = vectorizer.vocabulary_ 
+    vector = vectorizer.transform(texts) # transform into a vector
 #     print(vector.toarray())
     result = pd.DataFrame(vector.toarray())
 
@@ -89,10 +89,10 @@ textMatrix = textMatrix[extractedfeatures]
 labels = []
 labels.extend(ones(5000))
 labels.extend(zeros(5001))
-# 划分训练集和测试集
+# split into a train and a validation data set
 train,test,trainlabel,testlabel = train_test_split(textMatrix,labels,test_size=0.1)
 
-# 贝叶斯
+# bayes
 clf = bayes.BernoulliNB(alpha=1,binarize=True)
 model = clf.fit(train,trainlabel)
 # SVM
@@ -105,19 +105,19 @@ print(model2.score(test,testlabel))
 0.922077922077922
 0.987012987012987
 import matplotlib.pyplot as plt
-from pylab import *                                 #支持中文
+from pylab import *                                 #to support Chinese
 mpl.rcParams['font.sans-serif'] = ['SimHei']
 
 names = ['1000', '2000', '4000', '6000', '8000','9000']
 x = range(len(names))
 y = [0.8609, 0.900, 0.9133, 0.9242, 0.9355,0.9490]
 plt.plot(x, y, marker='o', mec='r', mfc='w')
-plt.legend()  # 让图例生效
+plt.legend()  # add the legend
 plt.xticks(x, names, rotation=45)
 plt.margins(0)
 plt.subplots_adjust(bottom=0.15)
-plt.xlabel(u"训练集数量") #X轴标签
-plt.ylabel("准确率") #Y轴标签
-plt.title("贝叶斯中文垃圾邮件分类准确率的变化") #标题
+plt.xlabel(u"the number of training sets") #y axis
+plt.ylabel("accuracy rate") #y axis
+plt.title("贝叶斯中文垃圾邮件分类准确率的变化") #titile
 plt.savefig("nb_zh.png")
 plt.show()
