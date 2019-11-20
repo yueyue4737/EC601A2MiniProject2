@@ -1,7 +1,7 @@
-katy=read.csv("D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-Collection-v1/Youtube02-KatyPerry.csv",stringsAsFactors = FALSE)
-lmfao=read.csv("D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-Collection-v1/Youtube03-LMFAO.csv",stringsAsFactors = FALSE)
-eminem=read.csv("D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-Collection-v1/Youtube04-Eminem.csv",stringsAsFactors = FALSE)
-shakira=read.csv("D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-Collection-v1/Youtube05-Shakira.csv",stringsAsFactors = FALSE)
+katy=read.csv("",stringsAsFactors = FALSE)
+lmfao=read.csv("",stringsAsFactors = FALSE)
+eminem=read.csv("",stringsAsFactors = FALSE)
+shakira=read.csv("",stringsAsFactors = FALSE)
 train=rbind(katy,lmfao,eminem,shakira)
 
 #cleaning data
@@ -16,7 +16,7 @@ for(i in 1:1606){
   #did not remove characters directly because if done so will maybe join some words for eg hello*world will become helloworld, hence did not do so
   }
   
-write.csv(train,file="D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-Collection-v1/train.csv")
+write.csv(train,file="")
 
 #num decides how much numbers to compare
 #change trainnum and testnum to change how much you want to train or test
