@@ -26,10 +26,10 @@ Sprint2: Individual Report: Snorkel
 <p> We still need to do a lot of things in labeling, before going into the next function. It might not be approperiate to use in the text, especially in a small-scale dataset. <p>
 
 ### Recommendations for a person who want to develop or use such systems
-<p> Snorkel is helpful to deal with images. <p>
+<p> Snorkel is helpful to deal with images, because we can combine different kinds of complex model into the library. <p>
   
 ### Conclusions
-<p> We still have a long way to solve the unsupervised learning. <p>
+<p> We still have a long way to solve the unsupervised learning. For now, we can use the unsupervised learning to reduce the complexity of the supervised learning. <p>
 
 Sprint3: Group Report, Learning from each other
 --
