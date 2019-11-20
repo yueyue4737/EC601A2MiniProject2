@@ -1,3 +1,4 @@
+## I had a class use naive bayes to finish the spam detection
 katy=read.csv("",stringsAsFactors = FALSE)
 lmfao=read.csv("",stringsAsFactors = FALSE)
 eminem=read.csv("",stringsAsFactors = FALSE)
