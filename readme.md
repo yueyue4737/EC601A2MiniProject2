@@ -41,7 +41,7 @@ Sprint3: Group Report, Learning from each other
   
 What's next?
 --
-<p> A personal github webpage based on how to use Snorkel <p>
+<p> Create an github webpage for this repository <p>
    
 LINKS:
 --
